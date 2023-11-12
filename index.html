@@ -3,22 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Визитка</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="me.jpg" width="200" alt="фотография">
-    <h1> <em>Моя визитка</em></h1>
+    <div class="hi">
+        <img class="av" src="me.jpg" alt="фотография"/>
+        <h1> <em>Моя визитка</em></h1>
+    </div>
     <hr>
-    <h2>О себе</h2>
-       <p>Магазейщикова Дарья Денисовна</p>
-       <p>Возраст: 18 лет</p>
-       <p>Группа: БПИ2303</p>
-       <hr>
-    <h2>Мои социальные сети</h2>
-    <ul>
-        <li><a href="https://vk.com/pampixz" target="_blank">Вконтакте</a></li>
-        <li><a href="https://github.com/pampixz" target="_blank">GitHub</a></li>
-        <li><a href="https://t.me/cyruszss" target="_blank">Telegram</a>@cyruszss</li>
-    </ul>
-    <h2></h2>
+    <div class="card">
+        <div class="main">
+            <h2>О себе</h2>
+            <p class="list">ФИО: Магазейщикова Дарья Денисовна</p>
+            <p class="list">Возраст: 18 лет</p>
+            <p class="list">Группа: БПИ2303</p>
+        </div>
+    </div>
+        <hr>
+    <div class="card">
+            <div class="social">
+                <h2>Мои социальные сети</h2>
+                <ul>
+                    <li><a href="https://vk.com/pampixz" target="_blank">Вконтакте</a></li>
+                    <li><a href="https://github.com/pampixz" target="_blank">GitHub</a></li>
+                    <li><a href="https://t.me/cyruszss" target="_blank">Telegram</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    <div class="card">
+        <div class="lb">
+            <h2>Мои работы</h2>
+            <button class="btn" onclick="window.open('https://github.com/pampixz/2/blob/main/main.py','_blank')"> Посмореть</button>
+        </div>
+    </div>
 </body>
 </html>
